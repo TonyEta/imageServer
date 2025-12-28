@@ -37,13 +37,15 @@
     font-size: 20px;
     font-weight: bold;
     color: #0060FF;
+    cursor: pointer;
 }
 
 .images_button {
     all: unset;
     font-size: 20px;
     font-weight: bold;
-    color: #ADC0F8
+    color: #ADC0F8;
+    cursor: pointer;
 }
 
 .upload_button:hover {
