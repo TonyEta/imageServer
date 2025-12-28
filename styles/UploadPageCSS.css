@@ -11,6 +11,8 @@
 .body {
     font-family: Inter, sans-serif;
     line-height: 1.5;
+    background-color: #F2F5FF;
+    min-height: 125vh;
 }
 
 .h1_header {
@@ -29,7 +31,7 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 10px;
+    gap: 15px;
 }
 
 .upload_button {
@@ -62,4 +64,108 @@
 
 .images_button:active {
     color: #638aff
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.elemWithArrow {
+    display: flex;
+    flex-direction: column;
+    border: 2px dashed rgb(0, 96, 255);
+    border-radius: 12px;
+    width: 540px;
+    height: 233px;
+    align-items: center;
+    margin-top: 50px;
+    
+}
+
+.imageZone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 33px;
+}
+
+.p1 {
+    padding-top: 30px;
+    color: rgb(11, 11, 11);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 13px;
+    font-size: 16px;
+}
+
+.p2 {
+    padding-top: 0px;
+    font-size: 15px;
+    color: rgb(173, 192, 248);
+    margin: 0px;
+}
+
+.download_button {
+    padding-top: 30px;
+    padding-bottom: 35px;
+}
+
+.label {
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    width: 540px;
+    height: 35px;
+    border-radius: 7px;
+    background-color: rgb(0, 96, 255);
+    padding-top: 7px;
+    border: none;
+}
+
+#file {
+    display: none;
+}
+
+.h2 {
+    color: black;
+    padding-bottom: 1px;
+    font-size: 16px;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.link {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 540px;
+    height: 62px;
+    border: 1px solid rgb(0, 96, 255);
+    border-radius: 12px;
+    padding: 0 16px;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+.copyLink {
+    flex-grow: 1;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    background-color: transparent;
+    color: black;
+}
+
+.buttonCopy {
+    width: 60px;
+    height: 30px;
+    border-radius: 12px;
+    border: none;
+    background-color: rgb(0, 96, 255);
+    color: white;
+    font-size: 12px;
+    cursor: pointer;
 }
