@@ -7,3 +7,10 @@ document.addEventListener("DOMContentLoaded", () => {
         })
     }
 })
+
+document.addEventListener("keydown", (event) => {
+    if (event.code === "Escape") {
+        event.preventDefault();
+        document.location.href = "../index.html"
+    }
+})
